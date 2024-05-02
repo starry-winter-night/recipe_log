@@ -11,6 +11,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    // "jest": {
+    //   "moduleNameMapper": {
+    //     "src/(.*)": "<rootDir>/$1"
+    //   }
+    // },
     "incremental": true,
     "plugins": [
       {
@@ -21,6 +26,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "jest.setup.js"],
   "exclude": ["node_modules"]
 }

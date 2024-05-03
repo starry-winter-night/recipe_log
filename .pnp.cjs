@@ -41,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:29.7.0"],\
           ["next", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:14.2.3"],\
+          ["normalize.css", "npm:8.0.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:18.3.1"],\
           ["ts-jest", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:29.1.2"],\
@@ -6525,6 +6526,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["normalize.css", [\
+      ["npm:8.0.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/normalize.css-npm-8.0.1-6124fb39b6-10c0.zip/node_modules/normalize.css/",\
+        "packageDependencies": [\
+          ["normalize.css", "npm:8.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["npm-run-path", [\
       ["npm:4.0.1", {\
         "packageLocation": "../../../.yarn/berry/cache/npm-run-path-npm-4.0.1-7aebd8bab3-10c0.zip/node_modules/npm-run-path/",\
@@ -7085,6 +7095,7 @@ const RAW_RUNTIME_STATE =
           ["jest", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:29.7.0"],\
           ["next", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:14.2.3"],\
+          ["normalize.css", "npm:8.0.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:18.3.1"],\
           ["ts-jest", "virtual:dd25232520aac48b05079de2b1e2ceab56fa607663f23bc17b8919ce74c1cdbc8e0dbca55a77da47fecc48b50a6b16f8753faf852c74b3ce615aed6d75f72dac#npm:29.1.2"],\

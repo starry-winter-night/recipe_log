@@ -1,3 +1,5 @@
+import 'normalize.css';
+import '@/app/styles/theme.css';
 import '@/app/styles/globals.css';
 import type { AppProps } from 'next/app';
 import Layout from '@/app/components/layout';

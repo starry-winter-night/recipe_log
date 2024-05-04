@@ -1,78 +1,65 @@
-/* :root 내에서 전역 변수 선언 */
-:root {
-  /* 색상 */
-  --primary-color: #e6e6fa; /* 주 색상 */
-  --secondary-color: #ffdfd5; /* 보조 색상 */
-  --tertiary-color: #a6a7c6; /* 보조 색상 */
-  --Quaternary-color: #69668b; /* 보조 색상 */
-  --background-color: #cbcef4; /* 배경 색상 */
-  --text-color: #4a4a4a; /* 텍스트 색상 */
-  --link-color: #ffa534; /* 링크 색상 */
-  --link-hover-color: #0056b3; /* 링크 호버 색상 */
+/* global.css */
 
-  /* 크기 */
-  --base-font-size: 16px; /* 기본 폰트 크기 */
-  --large-font-size: 24px; /* 큰 폰트 크기 */
-  --small-font-size: 12px; /* 작은 폰트 크기 */
-
-  /* 간격 */
-  --base-spacing: 8px; /* 기본 간격 */
-  --large-spacing: 16px; /* 큰 간격 */
-  --small-spacing: 4px; /* 작은 간격 */
-
-  /* 반응형 디자인을 위한 브레이크포인트 */
-  --breakpoint-mobile: 480px;
-  --breakpoint-tablet: 768px;
-  --breakpoint-desktop: 1024px;
-}
-
-/* 기본 스타일 설정 */
+/* 폰트 및 텍스트 설정 */
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
   line-height: 1.6;
-  font-size: var(--base-font-size);
-  color: var(--text-color);
-  background-color: var(--background-color);
+  font-size: 16px; /* 기본 폰트 크기 설정 */
+  color: #333; /* 기본 텍스트 색상 */
+  background-color: var(--background-color); /* 기본 배경 색상 */
 }
 
+/* 모든 요소에 대한 박스 사이징 통일 */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* 링크 초기화 및 스타일 설정 */
 a {
-  color: var(--link-color);
-  text-decoration: none;
+  color: var(--link-color); /* 링크 색상 */
+  text-decoration: none; /* 밑줄 없애기 */
 }
 
 a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+  text-decoration: underline; /* 호버 시 밑줄 */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+/* 리스트 스타일 초기화 */
+ul,
+ol {
   padding: 0;
+  list-style: none; /* 리스트 마커 제거 */
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 var(--base-spacing);
+/* 이미지와 비디오 요소의 최대 너비 설정 */
+img,
+video {
+  max-width: 100%; /* 부모 요소를 넘지 않도록 설정 */
+  height: auto; /* 비율 유지 */
 }
 
+/* 기본 버튼 스타일 */
 button {
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   color: white;
   border: none;
-  padding: var(--small-spacing) var(--large-spacing);
+  padding: 8px 16px;
   cursor: pointer;
-  border-radius: 5px;
-  font-size: var(--base-font-size);
+  border-radius: 4px;
+  font-size: inherit; /* 폰트 크기 상속 */
 }
 
 button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--link-hover-color);
+}
+
+/* 컨테이너 스타일 */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; /* 좌우 패딩 */
 }

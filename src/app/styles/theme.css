@@ -1,0 +1,27 @@
+/* :root 내에서 전역 변수 선언 */
+:root {
+  /* 색상 */
+  --primary-color: #e6e6fa; /* 주 색상 */
+  --secondary-color: #ffdfd5; /* 보조 색상 */
+  --tertiary-color: #a6a7c6; /* 보조 색상 */
+  --Quaternary-color: #69668b; /* 보조 색상 */
+  --background-color: #cbcef4; /* 배경 색상 */
+  --text-color: #4a4a4a; /* 텍스트 색상 */
+  --link-color: #ffa534; /* 링크 색상 */
+  --link-hover-color: #0056b3; /* 링크 호버 색상 */
+
+  /* 크기 */
+  --base-font-size: 16px; /* 기본 폰트 크기 */
+  --large-font-size: 24px; /* 큰 폰트 크기 */
+  --small-font-size: 12px; /* 작은 폰트 크기 */
+
+  /* 간격 */
+  --base-spacing: 8px; /* 기본 간격 */
+  --large-spacing: 16px; /* 큰 간격 */
+  --small-spacing: 4px; /* 작은 간격 */
+
+  /* 반응형 디자인을 위한 브레이크포인트 */
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+}

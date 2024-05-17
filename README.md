@@ -1,13 +1,3 @@
-## Getting Started
-
-First, run the development server:
-
-```bash
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 public/ # 정적 파일
 src/
 ├── test/ # 테스트 코드
@@ -21,7 +11,7 @@ src/
 │ │ │ │ ├── Header.tsx # 헤더 컴포넌트
 │ │ │ │ └── Footer.tsx # 푸터 컴포넌트
 │ │ ├── pages/ # 페이지 컴포넌트 및 Next.js의 라우팅 엔드포인트
-│ │ │ ├── \_app.tsx # 전역 애플리케이션 설정과 레이아웃
+│ │ │ ├── _app.tsx # 전역 애플리케이션 설정과 레이아웃
 │ │ │ ├── index.tsx # 홈페이지
 │ │ │ └── Work.tsx # 작업 페이지
 │ ├── utils/ # 유틸리티 함수 모음

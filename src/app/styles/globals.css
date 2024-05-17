@@ -6,8 +6,7 @@ body {
     'Helvetica Neue', sans-serif;
   line-height: 1.6;
   font-size: 16px; /* 기본 폰트 크기 설정 */
-  color: #333; /* 기본 텍스트 색상 */
-  background-color: var(--background-color); /* 기본 배경 색상 */
+  color: #ffffff; /* 기본 텍스트 색상 */
 }
 
 /* 모든 요소에 대한 박스 사이징 통일 */

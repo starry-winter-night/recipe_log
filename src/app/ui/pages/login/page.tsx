@@ -3,11 +3,11 @@ import Head from 'next/head';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Recipe Log',
-  description: '맛있었던 레시피를 저장하고 불러올 수 있는 웹 사이트 :)',
+  title: "smpark's portfolio",
+  description: 'smpark의 포트폴리오 페이지입니다. 소개, 스킬, 경력 등을 알 수 있어요. :)',
 };
 
-const HomePage = () => {
+const LoginPage = () => {
   return (
     <div>
       <Head>
@@ -20,4 +20,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default LoginPage;

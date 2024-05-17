@@ -1,4 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+
+// next.config.mjs
+
+const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: '/ui/pages/:path*',
+      },
+    ];
+  },
+};
 
 export default nextConfig;

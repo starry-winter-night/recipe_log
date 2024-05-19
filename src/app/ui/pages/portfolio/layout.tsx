@@ -1,8 +1,10 @@
+import Navbar from '@/app/ui/components/portfolio/Navbar';
+
 const PortfolioLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <header>
-        <nav>Navigation Bar</nav>
+        <Navbar />
       </header>
       <main>{children}</main>
       <footer>Footer Content</footer>

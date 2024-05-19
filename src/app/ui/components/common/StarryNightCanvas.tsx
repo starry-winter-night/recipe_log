@@ -3,7 +3,7 @@ import StarryNight from '@/app/utils/services/starry_night/main';
 import { useEffect, useRef } from 'react';
 import styles from '@/app/ui/components/common/starryNightCanvas.module.css';
 
-const StarryNightCanvas: React.FC = () => {
+const StarryNightCanvas = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const starryNight = new StarryNight();
 

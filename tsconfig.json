@@ -11,11 +11,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    // "jest": {
-    //   "moduleNameMapper": {
-    //     "src/(.*)": "<rootDir>/$1"
-    //   }
-    // },
     "incremental": true,
     "plugins": [
       {

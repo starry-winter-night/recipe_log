@@ -1,0 +1,10 @@
+.list {
+  cursor: pointer;
+  font-size: var(--font-regular);
+  font-weight: 700;
+  color: var(--color-light-white);
+}
+
+.list:hover {
+  color: var(--color-blue);
+}
